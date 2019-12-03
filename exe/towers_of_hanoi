@@ -1,0 +1,21 @@
+#!/usr/bin/env ruby
+
+require_relative '../lib/towers_of_hanoi'
+
+ring_count = (ARGV[0] || 6).to_i
+wait_time = (ARGV[1] || 1.0).to_f
+
+game = TowersOfHanoi::Game.new(ring_count)
+game.print
+
+loop {
+  game.next
+  puts "\e[H\e[2J"
+  game.print
+  if game.done?
+    puts 'done!'
+    break
+  end
+
+  sleep wait_time
+}
