@@ -9,8 +9,8 @@ Gem::Specification.new do |spec|
   spec.authors       = ["oieioi"]
   spec.email         = ["atsuinatsu.samuifuyu@gmail.com"]
 
-  spec.summary       = %q{Towers of hanoi}
-  spec.description   = %q{Towers of hanoi}
+  spec.summary       = %q{Solve Tower of hanoi on CLI}
+  spec.description   = %q{Solve Tower of hanoi on CLI}
   spec.homepage      = "https://github.com/oieioi/hanoi_tower.rb"
   spec.license       = "MIT"
 
