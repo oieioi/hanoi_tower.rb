@@ -6,12 +6,15 @@ Solve towers of hanoi.
 
 ## Installation
 
-clone this repo and `bundle install`
+```
+gem install hanoi_tower
+```
 
 ## Usage
 
 ```
-bundle exec ruby ./exe/hanoi_tower <ring count> <sleep time>
+$ hanoi_tower
+$ hanoi_tower <ring_count> <sleep_time>
 ```
 
 ## License
