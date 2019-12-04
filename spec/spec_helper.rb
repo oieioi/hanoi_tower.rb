@@ -1,5 +1,5 @@
 require "bundler/setup"
-require "towers_of_hanoi"
+require "hanoi_tower"
 
 RSpec.configure do |config|
   # Enable flags like --only-failures and --next-failure

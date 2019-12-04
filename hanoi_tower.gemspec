@@ -1,17 +1,17 @@
 
 lib = File.expand_path("../lib", __FILE__)
 $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
-require "towers_of_hanoi/version"
+require "hanoi_tower/version"
 
 Gem::Specification.new do |spec|
-  spec.name          = "towers_of_hanoi"
-  spec.version       = TowersOfHanoi::VERSION
+  spec.name          = "hanoi_tower"
+  spec.version       = HanoiTower::VERSION
   spec.authors       = ["oieioi"]
   spec.email         = ["atsuinatsu.samuifuyu@gmail.com"]
 
   spec.summary       = %q{Towers of hanoi}
   spec.description   = %q{Towers of hanoi}
-  spec.homepage      = "https://github.com/oieioi/towers_of_hanoi.rb"
+  spec.homepage      = "https://github.com/oieioi/hanoi_tower.rb"
   spec.license       = "MIT"
 
   spec.files         = Dir.chdir(File.expand_path('..', __FILE__)) do

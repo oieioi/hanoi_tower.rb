@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    towers_of_hanoi (0.1.0)
+    hanoi_tower (0.1.0)
 
 GEM
   remote: https://rubygems.org/
@@ -27,9 +27,9 @@ PLATFORMS
 
 DEPENDENCIES
   bundler (~> 1.17)
+  hanoi_tower!
   rake (~> 10.0)
   rspec (~> 3.0)
-  towers_of_hanoi!
 
 BUNDLED WITH
    1.17.2

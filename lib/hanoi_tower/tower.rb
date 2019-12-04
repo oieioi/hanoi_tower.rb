@@ -1,6 +1,6 @@
 require_relative "./ring"
 
-module TowersOfHanoi
+module HanoiTower
   class Tower
     def initialize(ring_size)
       @rings = ring_size.times.reverse_each.map {|v| Ring.new(v + 1) }

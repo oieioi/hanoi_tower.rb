@@ -1,6 +1,6 @@
 require_relative "./tower"
 
-module TowersOfHanoi
+module HanoiTower
   class Game
     def initialize(size)
       @generation = 0

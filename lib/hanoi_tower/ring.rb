@@ -1,4 +1,4 @@
-module TowersOfHanoi
+module HanoiTower
   class Ring
     def initialize size
       @size = size

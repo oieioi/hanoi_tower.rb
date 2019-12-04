@@ -1,4 +1,4 @@
-# TowersOfHanoi
+# HanoiTower
 
 Solve towers of hanoi.
 
@@ -11,7 +11,7 @@ clone this repo and `bundle install`
 ## Usage
 
 ```
-bundle exec ruby ./exe/towers_of_hanoi <ring count> <sleep time>
+bundle exec ruby ./exe/hanoi_tower <ring count> <sleep time>
 ```
 
 ## License
